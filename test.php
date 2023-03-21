@@ -44,6 +44,6 @@ EOF;
         
  foreach($options as $id => $name){
  	$tmp = str_replace('##name##', $name, $demo);
- 	$tmp = str_replace('##id##', $id, $demo);
+ 	$tmp = str_replace('##id##', $id, $tmp);
  	echo "$tmp\n";
  }
